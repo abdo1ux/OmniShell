@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Theme Colors -->
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="accent">#00E676</color>
+
+    <!-- UI Surface Backgrounds -->
+    <color name="dashboard_bg">#121824</color>
+    <color name="card_bg">#1E2738</color>
+    <color name="card_stroke">#2A364F</color>
+
+    <!-- Status Indicators -->
+    <color name="status_root_green">#00E676</color>
+    <color name="status_nonroot_amber">#FFB300</color>
+    <color name="status_red">#FF5252</color>
+    <color name="status_cyan">#00E5FF</color>
+    <color name="status_purple">#B388FF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#90A4AE</color>
+    <color name="text_muted">#607D8B</color>
+
+    <!-- Terminal Colors -->
+    <color name="terminal_bg">#0A0E17</color>
+    <color name="terminal_green">#00FF66</color>
+
+    <!-- Standard Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
