@@ -1,8 +1,10 @@
 package io.github.abdo1ux
 
 import android.content.Intent
+import android.content.pm.ActivityInfo
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
+import android.content.res.Configuration
 import android.media.AudioManager
 import android.net.Uri
 import android.os.Build
@@ -246,6 +248,17 @@ class MainActivity : AppCompatActivity() {
             } else {
                 checkSettingsWritePermission()
             }
+        }
+
+        // Screen Rotate Button
+        binding.btnRotateScreen.setOnClickListener {
+            val currentOrientation = resources.configuration.orientation
+            requestedOrientation = if (currentOrientation == Configuration.ORIENTATION_LANDSCAPE) {
+                ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+            } else {
+                ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+            }
+            Toast.makeText(this, R.string.msg_screen_rotated, Toast.LENGTH_SHORT).show()
         }
     }
 

@@ -10,7 +10,7 @@ Let's be real: learning entirely new programming languages, messing with Gradle,
 ## 🚀 Features (In Progress)
 - **Universal Scaling:** Automatically resizes itself cleanly for tiny phone screens up to large 10.4-inch tablet displays.
 - **System Monitoring:** Keeps tabs on CPU, RAM, storage, and battery metrics.
-- **Device Control:** Standard non-root tweaks (brightness, volume, system info).
+- **Device Control:** Standard non-root tweaks (brightness, screen rotation toggle, volume, system info).
 - **Future Root Architecture:** Built-in structural hooks that will unlock heavy-duty system file modifications and advanced shell commands once the device gets root access.
 
 ## 🛠️ Tech Stack & Development

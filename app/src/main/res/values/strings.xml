@@ -19,6 +19,8 @@
     <string name="label_brightness">Screen Brightness</string>
     <string name="label_auto_brightness">Auto Brightness</string>
     <string name="btn_grant_settings_perm">Grant Write Settings Permission</string>
+    <string name="btn_rotate_screen">Rotate Screen</string>
+    <string name="msg_screen_rotated">Screen orientation toggled</string>
 
     <string name="title_audio_controls">Audio &amp; Volume</string>
     <string name="label_media_volume">Media Volume</string>
